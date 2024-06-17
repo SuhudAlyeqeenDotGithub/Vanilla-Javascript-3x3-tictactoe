@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe Version 1</title>
+    <link rel="stylesheet" type="text/css" href="tictactoe3x3.css">
+</head>
+<body>
+    <div class="tictactoeframe">
+        <div class="bodytop">
+        
+            <h1 class="heading">3X3 TIC TAC TOE (Keyboard)</h1>
+            <h1 class="initial">Initials: X and O (Keyboard)</h1>
+            <hr>
+            <br>
+            <br>
+            <div class="container">
+                <div class="players">
+                    <h1 id="playerxlabel">Player X</h1>
+                    <input type="text" id="playerxinput">
+                    <h1 id="playerolabel">Player O</h1>   
+                    <input type="text" id="playeroinput">
+                </div>
+                <div class= "button_and_label">
+                    <button onclick="judgeresult()" id="judgebtn">Judge Result</button>
+                    <button onclick="newgame()" id="newgame">New Game</button>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="bodybuttom">
+            <p id="result">See Game Result</p>
+            <div class="inputs">
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputa X and O" id="inputa">
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputb X and O" id="inputb">
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputc X and O" id="inputc">
+    
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputd X and O" id="inputd">
+                <input type="text" pattern ="[oOxX]{1}" title=" Inpute X and O" id="inpute">
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputf X and O" id="inputf">
+    
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputg X and O" id="inputg">
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputh X and O" id="inputh">
+                <input type="text" pattern ="[oOxX]{1}" title=" Inputi X and O" id="inputi">
+            </div>
+
+    </div> `
+
+
+
+    <script src="tictactoe3x3.js"></script>
+</body>
+</html>

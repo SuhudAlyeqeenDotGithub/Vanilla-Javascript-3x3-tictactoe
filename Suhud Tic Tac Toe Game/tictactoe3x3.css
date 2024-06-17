@@ -1,0 +1,140 @@
+.tictactoeframe{
+    border: 1px solid#bfbfbf;
+    background-color: #f2f2f2 ;
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+body{
+    padding: 100px;
+}
+
+.bodytop{
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid#bfbfbf;
+    border-radius: 5px;
+}
+.bodybuttom{
+    width: 500px;
+    background-color: none;
+    padding: 30px;
+    border:none;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-gap: 2px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+.heading{
+font-family: calibri;
+text-align: center;
+}
+
+.initial{
+    font-family: calibri;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#result{
+
+    border-radius: 3px;
+    border: 2px solid black;
+    color: black;
+    font-size: 25px;
+    font-family: calibri;
+    text-align: center;
+    padding-top: 10px;
+    padding: 20px;
+    font-weight: 900;
+    grid-column: span 2;
+   
+    
+}
+.inputs input{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.judge{
+    margin-left: 100px;
+
+}
+
+.button_and_label{
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+#judgebtn{
+    width: 150px;
+    height: 50px;
+    background-color: #004d4d;
+    border-radius: 3px;
+    border: 1px solid #004d4d;
+    color: white;
+    font-size: 18px;
+    font-family: calibri;
+    margin-top: 20px;
+    
+}
+
+#newgame{
+    width: 150px;
+    height: 50px;
+    background-color: #004d4d;
+    border-radius: 3px;
+    border: 1px solid #004d4d;
+    color: white;
+    font-size: 18px;
+    font-family: calibri;
+    margin-top: 20px;
+}
+ #btntest {
+    width: 150px;
+    height: 50px; 
+ }
+
+ #playerxlabel, #playerolabel {
+    font-size: 20px;
+    font-family: calibri;
+
+ }
+
+ #playerxinput, #playeroinput {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+ }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    border: 1px solid#bfbfbf;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+
